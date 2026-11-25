@@ -1,0 +1,22 @@
+# Maven
+target/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.factorypath
+
+# IntelliJ IDEA / VS Code
+.idea/
+*.iml
+.vscode/
+
+# Maven ayar dosyası (github/Dockerfile bunu bekler, içinde kimlik bilgisi olabilir)
+github/settings.xml
+
+# Diğer
+*.log
+.env
+.DS_Store
+Thumbs.db
